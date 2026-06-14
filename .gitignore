@@ -1,0 +1,12 @@
+.vs/
+x64/
+Debug/
+Release/
+build/
+
+*.ipch
+*.pch
+*.VC.db
+*.opendb
+
+*.pro.user

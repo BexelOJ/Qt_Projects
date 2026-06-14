@@ -1,0 +1,579 @@
+Product: Qt Creator 14.0.2
+Based on: Qt 6.7.3 (MSVC 2019, x86_64)
+Built on: Sep 27 2024 00:15:55
+From revision: 3004ebc0af
+
+
+
+C:\Downloads\Bootloader_Logo.png
+
+
+D:\My Files 2024\2024 Pics\EIL_Cr.jpg
+
+D:/My Files 2024/2024 Pics/EIL_Cr.jpg
+
+----------------------------------------------------------------------------------------------------
+
+{noformat}
+Qt 6.7.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2019) on "windows" 
+OS: Windows 10 Version 22H2 [winnt version 10.0.19045]
+
+Architecture: x86_64; features: SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 AVX AVX2 RDRAND RDSEED AES
+
+Environment:
+
+Features: QT_NO_EXCEPTIONS
+
+Library info:
+  PrefixPath: D:\Qt\Tools\QtCreator\bin
+  DocumentationPath: D:\Qt\Tools\QtCreator\bin\doc
+  HeadersPath: D:\Qt\Tools\QtCreator\bin\include
+  LibrariesPath: D:\Qt\Tools\QtCreator\bin
+  LibraryExecutablesPath: D:\Qt\Tools\QtCreator\bin\bin
+  BinariesPath: D:\Qt\Tools\QtCreator\bin
+  PluginsPath: D:\Qt\Tools\QtCreator\bin\plugins
+  QmlImportsPath: D:\Qt\Tools\QtCreator\bin\qml
+  ArchDataPath: D:\Qt\Tools\QtCreator\bin
+  DataPath: D:\Qt\Tools\QtCreator\bin
+  TranslationsPath: D:\Qt\Tools\QtCreator\bin\translations
+  ExamplesPath: D:\Qt\Tools\QtCreator\bin\examples
+  TestsPath: D:\Qt\Tools\QtCreator\bin\tests
+  SettingsPath: 
+
+Standard paths [*...* denote writable entry]:
+  DesktopLocation: "Desktop" *C:\Users\bexel\OneDrive\Desktop*
+  DocumentsLocation: "Documents" *C:\Users\bexel\OneDrive\Documents*
+  FontsLocation: "Fonts" *C:\Windows\Fonts*
+  ApplicationsLocation: "Applications" *C:\Users\bexel\AppData\Roaming\Microsoft\Windows\Start Menu\Programs*
+  MusicLocation: "Music" *C:\Users\bexel\Music*
+  MoviesLocation: "Movies" *C:\Users\bexel\Videos*
+  PicturesLocation: "Pictures" *C:\Users\bexel\OneDrive\Pictures*
+  TempLocation: "Temporary Directory" *C:\Users\bexel\AppData\Local\Temp*
+  HomeLocation: "Home" *C:\Users\bexel*
+  AppLocalDataLocation: "Application Data" *C:\Users\bexel\AppData\Local\QtProject\qtdiag* C:\ProgramData\QtProject\qtdiag D:\Qt\Tools\QtCreator\bin D:\Qt\Tools\QtCreator\bin\data D:\Qt\Tools\QtCreator\bin\data\QtProject\qtdiag
+  CacheLocation: "Cache" *C:\Users\bexel\AppData\Local\QtProject\qtdiag\cache*
+  GenericDataLocation: "Shared Data" *C:\Users\bexel\AppData\Local* C:\ProgramData D:\Qt\Tools\QtCreator\bin D:\Qt\Tools\QtCreator\bin\data
+  RuntimeLocation: "Runtime" *C:\Users\bexel*
+  ConfigLocation: "Configuration" *C:\Users\bexel\AppData\Local\QtProject\qtdiag* C:\ProgramData\QtProject\qtdiag D:\Qt\Tools\QtCreator\bin D:\Qt\Tools\QtCreator\bin\data D:\Qt\Tools\QtCreator\bin\data\QtProject\qtdiag
+  DownloadLocation: "Download" *C:\Users\bexel\Downloads*
+  GenericCacheLocation: "Shared Cache" *C:\Users\bexel\AppData\Local\cache*
+  GenericConfigLocation: "Shared Configuration" *C:\Users\bexel\AppData\Local* C:\ProgramData D:\Qt\Tools\QtCreator\bin D:\Qt\Tools\QtCreator\bin\data
+  AppDataLocation: "Application Configuration" *C:\Users\bexel\AppData\Roaming\QtProject\qtdiag* C:\ProgramData\QtProject\qtdiag D:\Qt\Tools\QtCreator\bin D:\Qt\Tools\QtCreator\bin\data D:\Qt\Tools\QtCreator\bin\data\QtProject\qtdiag
+  AppConfigLocation: "Application Configuration" *C:\Users\bexel\AppData\Local\QtProject\qtdiag* C:\ProgramData\QtProject\qtdiag D:\Qt\Tools\QtCreator\bin D:\Qt\Tools\QtCreator\bin\data D:\Qt\Tools\QtCreator\bin\data\QtProject\qtdiag
+
+File selectors (increasing order of precedence):
+  en_US windows winnt
+
+Network:
+  Using "OpenSSL 3.0.12 24 Oct 2023", version: 0x300000c0
+
+Platform capabilities: ThreadedPixmaps OpenGL ThreadedOpenGL WindowMasks MultipleWindows ForeignWindows NonFullScreenWindows NativeWidgets WindowManagement RasterGLSurface AllGLFunctionsQueryable
+
+Style hints:
+  mouseDoubleClickInterval: 480
+  mousePressAndHoldInterval: 800
+  startDragDistance: 10
+  startDragTime: 500
+  startDragVelocity: 0
+  keyboardInputInterval: 400
+  keyboardAutoRepeatRateF: 32
+  cursorFlashTime: 1060
+  showIsFullScreen: 0
+  showIsMaximized: 0
+  passwordMaskDelay: 0
+  passwordMaskCharacter: U+25CF
+  fontSmoothingGamma: 1
+  useRtlExtensions: 0
+  setFocusOnTouchRelease: 0
+  tabFocusBehavior: Qt::TabFocusAllControls 
+  singleClickActivation: 0
+
+Additional style hints (QPlatformIntegration):
+  ReplayMousePressOutsidePopup: 1
+
+Theme:
+  Platforms requested : windows
+            available : 
+  Styles requested    : WindowsVista,Windows
+         available    : windows11,windowsvista,Windows,Fusion
+  System font         : "Segoe UI" 9
+  Native file dialog
+
+Fonts:
+  General font : "Segoe UI" 9
+  Fixed font   : "Courier New" 9
+  Title font   : "Segoe UI" 9
+  Smallest font: "Segoe UI" 9
+
+Palette:
+  QPalette::WindowText: #ffffffff
+  QPalette::Button: #ff3c3c3c
+  QPalette::Light: #ff787878
+  QPalette::Midlight: #ff5a5a5a
+  QPalette::Dark: #ff1e1e1e
+  QPalette::Mid: #ff282828
+  QPalette::Text: #ffffffff
+  QPalette::BrightText: #fffd8df1
+  QPalette::ButtonText: #ffffffff
+  QPalette::Base: #ff2d2d2d
+  QPalette::Window: #ff1e1e1e
+  QPalette::Shadow: #ff000000
+  QPalette::Highlight: #ff9a0089
+  QPalette::HighlightedText: #ffffffff
+  QPalette::Link: #ff9a0089
+  QPalette::LinkVisited: #ff33002d
+  QPalette::AlternateBase: #ff33002d
+  QPalette::NoRole: #ff000000
+  QPalette::ToolTipBase: #ff3c3c3c
+  QPalette::ToolTipText: #ffd4d4d4
+  QPalette::PlaceholderText: #80ffffff
+  QPalette::Accent: #ff9a0089
+
+Screens: 2, High DPI scaling: active
+# 0 "\\.\DISPLAY1" Depth: 32 Primary: yes
+  Manufacturer: BOE
+  Model: 
+  Serial number: 
+  Geometry: 1536x864+0+0 (native: 1920x1080+0+0) Available: 1536x834+0+0
+  Virtual geometry: 5360x1440+0+0 Available: 5360x1410+0+0
+  2 virtual siblings
+  Physical size: 344x193 mm  Refresh: 60.0145 Hz Power state: 0
+  Physical DPI: 113.414,113.708 Logical DPI: 96,96 (native: 120,120) Subpixel_None
+  High DPI scaling factor: 1.25 DevicePixelRatio: 1.25
+  Primary orientation: 2 Orientation: 2 Native orientation: 0
+
+# 1 "LG ULTRAWIDE" Depth: 32 Primary: no
+  Manufacturer: LG Electronics
+  Model: LG ULTRAWIDE
+  Serial number: 304NTPC5Z920
+  Geometry: 3440x1440+1920+0 Available: 3440x1410+1920+0
+  Virtual geometry: 5360x1440+0+0 Available: 5360x1410+0+0
+  2 virtual siblings
+  Physical size: 800x334 mm  Refresh: 49.9532 Hz Power state: 0
+  Physical DPI: 109.22,109.509 Logical DPI: 96,96 Subpixel_None
+  High DPI scaling factor: 1 DevicePixelRatio: 1
+  Primary orientation: 2 Orientation: 2 Native orientation: 0
+
+Dynamic GL LibGL Vendor: Intel
+Renderer: Intel(R) HD Graphics 620
+Version: 4.6.0 - Build 31.0.101.2111
+Shading language: 4.60 - Build 31.0.101.2111
+Format: Version: 4.6 Profile: 2 Swap behavior: 2 Buffer size (RGBA): 8,8,8,8 Depth buffer: 24 Stencil buffer: 8
+Profile: None (QOpenGLFunctions_4_6)
+
+Vulkan instance available
+Supported instance extensions:
+  VK_KHR_surface, version 25
+  VK_KHR_win32_surface, version 5
+  VK_KHR_external_memory_capabilities, version 1
+  VK_KHR_external_semaphore_capabilities, version 1
+  VK_KHR_external_fence_capabilities, version 1
+  VK_KHR_get_physical_device_properties2, version 2
+  VK_KHR_get_surface_capabilities2, version 1
+  VK_KHR_device_group_creation, version 1
+  VK_EXT_swapchain_colorspace, version 4
+  VK_EXT_debug_report, version 9
+  VK_EXT_debug_utils, version 1
+Supported layers:
+  VK_LAYER_AMD_switchable_graphics, version 1, spec version 1.2.133, AMD switchable graphics layer
+Available physical devices:
+  API version 1.3.215, vendor 0x8086, device 0x5916, Intel(R) HD Graphics 620, type 1, driver version 0.404.2111
+
+
+GPU #1:
+         Card name         : Intel(R) HD Graphics 620
+       Driver Name         : igdumdim64.dll
+    Driver Version         : 31.0.101.2111
+         Vendor ID         : 0x8086
+         Device ID         : 0x5916
+         SubSys ID         : 0x832B103C
+       Revision ID         : 0x0002
+
+GPU #2:
+         Card name         : Intel(R) HD Graphics 620
+       Driver Name         : igdumdim64.dll
+    Driver Version         : 31.0.101.2111
+         Vendor ID         : 0x8086
+         Device ID         : 0x5916
+         SubSys ID         : 0x832B103C
+       Revision ID         : 0x0002
+
+Qt Rendering Hardware Interface supported backends:
+OpenGL (with default QSurfaceFormat):
+  Driver Info: Device: Intel Intel(R) HD Graphics 620 4.6.0 - Build 31.0.101.2111 Device ID: 0x0 Vendor ID: 0x0 Device type: Unknown
+  Min Texture Size: 1
+  Max Texture Size: 16384
+  Max Color Attachments: 8
+  Frames in Flight: 1
+  Async Readback Limit: 1
+  MaxThreadGroupsPerDimension: 65535
+  MaxThreadsPerThreadGroup: 1024
+  MaxThreadGroupX: 1024
+  MaxThreadGroupY: 1024
+  MaxThreadGroupZ: 64
+  TextureArraySizeMax: 2048
+  MaxUniformBufferRange: 16384
+  MaxVertexInputs: 16
+  MaxVertexOutputs: 16
+  Uniform Buffer Alignment: 1
+  Supported MSAA sample counts: 1,2,4,8,16
+  Features:
+    v MultisampleTexture
+    v MultisampleRenderBuffer
+    - DebugMarkers
+    v Timestamps
+    v Instancing
+    - CustomInstanceStepRate
+    v PrimitiveRestart
+    v NonDynamicUniformBuffers
+    v NonFourAlignedEffectiveIndexBufferOffset
+    v NPOTTextureRepeat
+    - RedOrAlpha8IsRed
+    v ElementIndexUint
+    v Compute
+    v WideLines
+    v VertexShaderPointSize
+    v BaseVertex
+    - BaseInstance
+    v TriangleFanTopology
+    v ReadBackNonUniformBuffer
+    v ReadBackNonBaseMipLevel
+    v TexelFetch
+    v RenderToNonBaseMipLevel
+    v IntAttributes
+    v ScreenSpaceDerivatives
+    - ReadBackAnyTextureFormat
+    v PipelineCacheDataLoadSave
+    v ImageDataStride
+    v RenderBufferImport
+    v ThreeDimensionalTextures
+    v RenderTo3DTextureSlice
+    v TextureArrays
+    v Tessellation
+    v GeometryShader
+    - TextureArrayRange
+    v NonFillPolygonMode
+    v OneDimensionalTextures
+    v OneDimensionalTextureMipmaps
+    v HalfAttributes
+    v RenderToOneDimensionalTexture
+    v ThreeDimensionalTextureMipmaps
+  Texture formats: RGBA8 BGRA8 R8 RG8 R16 RG16 RED_OR_ALPHA8 RGBA16F RGBA32F R16F R32F RGB10A2 D16 D32F BC1 BC2 BC3 ETC2_RGB8 ETC2_RGB8A1 ETC2_RGBA8 ASTC_4x4 ASTC_5x4 ASTC_5x5 ASTC_6x5 ASTC_6x6 ASTC_8x5 ASTC_8x6 ASTC_8x8 ASTC_10x5 ASTC_10x6 ASTC_10x8 ASTC_10x10 ASTC_12x10 ASTC_12x12
+Vulkan:
+  Driver Info: Device: Intel(R) HD Graphics 620 Device ID: 0x5916 Vendor ID: 0x8086 Device type: Integrated
+  Min Texture Size: 1
+  Max Texture Size: 16384
+  Max Color Attachments: 8
+  Frames in Flight: 2
+  Async Readback Limit: 2
+  MaxThreadGroupsPerDimension: 65536
+  MaxThreadsPerThreadGroup: 1024
+  MaxThreadGroupX: 1024
+  MaxThreadGroupY: 1024
+  MaxThreadGroupZ: 64
+  TextureArraySizeMax: 2048
+  MaxUniformBufferRange: 134217724
+  MaxVertexInputs: 32
+  MaxVertexOutputs: 32
+  Uniform Buffer Alignment: 64
+  Supported MSAA sample counts: 1,2,4,8,16
+  Features:
+    v MultisampleTexture
+    v MultisampleRenderBuffer
+    v DebugMarkers
+    v Timestamps
+    v Instancing
+    - CustomInstanceStepRate
+    v PrimitiveRestart
+    v NonDynamicUniformBuffers
+    v NonFourAlignedEffectiveIndexBufferOffset
+    v NPOTTextureRepeat
+    v RedOrAlpha8IsRed
+    v ElementIndexUint
+    v Compute
+    v WideLines
+    v VertexShaderPointSize
+    v BaseVertex
+    v BaseInstance
+    v TriangleFanTopology
+    v ReadBackNonUniformBuffer
+    v ReadBackNonBaseMipLevel
+    v TexelFetch
+    v RenderToNonBaseMipLevel
+    v IntAttributes
+    v ScreenSpaceDerivatives
+    v ReadBackAnyTextureFormat
+    v PipelineCacheDataLoadSave
+    v ImageDataStride
+    - RenderBufferImport
+    v ThreeDimensionalTextures
+    - RenderTo3DTextureSlice
+    v TextureArrays
+    v Tessellation
+    v GeometryShader
+    v TextureArrayRange
+    v NonFillPolygonMode
+    v OneDimensionalTextures
+    v OneDimensionalTextureMipmaps
+    v HalfAttributes
+    v RenderToOneDimensionalTexture
+    v ThreeDimensionalTextureMipmaps
+  Texture formats: RGBA8 BGRA8 R8 RG8 R16 RG16 RED_OR_ALPHA8 RGBA16F RGBA32F R16F R32F RGB10A2 D16 D24 D24S8 D32F BC1 BC2 BC3 BC4 BC5 BC6H BC7 ETC2_RGB8 ETC2_RGB8A1 ETC2_RGBA8 ASTC_4x4 ASTC_5x4 ASTC_5x5 ASTC_6x5 ASTC_6x6 ASTC_8x5 ASTC_8x6 ASTC_8x8 ASTC_10x5 ASTC_10x6 ASTC_10x8 ASTC_10x10 ASTC_12x10 ASTC_12x12
+Direct3D 11:
+  Driver Info: Device: Intel(R) HD Graphics 620 Device ID: 0x5916 Vendor ID: 0x8086 Device type: Unknown
+  Min Texture Size: 1
+  Max Texture Size: 16384
+  Max Color Attachments: 8
+  Frames in Flight: 1
+  Async Readback Limit: 1
+  MaxThreadGroupsPerDimension: 65535
+  MaxThreadsPerThreadGroup: 1024
+  MaxThreadGroupX: 1024
+  MaxThreadGroupY: 1024
+  MaxThreadGroupZ: 64
+  TextureArraySizeMax: 2048
+  MaxUniformBufferRange: 65536
+  MaxVertexInputs: 32
+  MaxVertexOutputs: 32
+  Uniform Buffer Alignment: 256
+  Supported MSAA sample counts: 1,2,4,8
+  Features:
+    v MultisampleTexture
+    v MultisampleRenderBuffer
+    v DebugMarkers
+    v Timestamps
+    v Instancing
+    v CustomInstanceStepRate
+    v PrimitiveRestart
+    - NonDynamicUniformBuffers
+    v NonFourAlignedEffectiveIndexBufferOffset
+    v NPOTTextureRepeat
+    v RedOrAlpha8IsRed
+    v ElementIndexUint
+    v Compute
+    - WideLines
+    - VertexShaderPointSize
+    v BaseVertex
+    v BaseInstance
+    - TriangleFanTopology
+    v ReadBackNonUniformBuffer
+    v ReadBackNonBaseMipLevel
+    v TexelFetch
+    v RenderToNonBaseMipLevel
+    v IntAttributes
+    v ScreenSpaceDerivatives
+    v ReadBackAnyTextureFormat
+    v PipelineCacheDataLoadSave
+    v ImageDataStride
+    - RenderBufferImport
+    v ThreeDimensionalTextures
+    v RenderTo3DTextureSlice
+    v TextureArrays
+    v Tessellation
+    v GeometryShader
+    v TextureArrayRange
+    v NonFillPolygonMode
+    v OneDimensionalTextures
+    v OneDimensionalTextureMipmaps
+    v HalfAttributes
+    v RenderToOneDimensionalTexture
+    v ThreeDimensionalTextureMipmaps
+  Texture formats: RGBA8 BGRA8 R8 RG8 R16 RG16 RED_OR_ALPHA8 RGBA16F RGBA32F R16F R32F RGB10A2 D16 D24 D24S8 D32F BC1 BC2 BC3 BC4 BC5 BC6H BC7
+Direct3D 12:
+  Driver Info: Device: Intel(R) HD Graphics 620 Device ID: 0x5916 Vendor ID: 0x8086 Device type: Unknown
+  Min Texture Size: 1
+  Max Texture Size: 16384
+  Max Color Attachments: 8
+  Frames in Flight: 2
+  Async Readback Limit: 2
+  MaxThreadGroupsPerDimension: 65535
+  MaxThreadsPerThreadGroup: 1024
+  MaxThreadGroupX: 1024
+  MaxThreadGroupY: 1024
+  MaxThreadGroupZ: 1024
+  TextureArraySizeMax: 2048
+  MaxUniformBufferRange: 65536
+  MaxVertexInputs: 32
+  MaxVertexOutputs: 32
+  Uniform Buffer Alignment: 256
+  Supported MSAA sample counts: 1,2,4,8
+  Features:
+    v MultisampleTexture
+    v MultisampleRenderBuffer
+    v DebugMarkers
+    v Timestamps
+    v Instancing
+    v CustomInstanceStepRate
+    v PrimitiveRestart
+    - NonDynamicUniformBuffers
+    v NonFourAlignedEffectiveIndexBufferOffset
+    v NPOTTextureRepeat
+    v RedOrAlpha8IsRed
+    v ElementIndexUint
+    v Compute
+    - WideLines
+    - VertexShaderPointSize
+    v BaseVertex
+    v BaseInstance
+    - TriangleFanTopology
+    v ReadBackNonUniformBuffer
+    v ReadBackNonBaseMipLevel
+    v TexelFetch
+    v RenderToNonBaseMipLevel
+    v IntAttributes
+    v ScreenSpaceDerivatives
+    v ReadBackAnyTextureFormat
+    - PipelineCacheDataLoadSave
+    v ImageDataStride
+    - RenderBufferImport
+    v ThreeDimensionalTextures
+    v RenderTo3DTextureSlice
+    v TextureArrays
+    v Tessellation
+    v GeometryShader
+    v TextureArrayRange
+    v NonFillPolygonMode
+    v OneDimensionalTextures
+    - OneDimensionalTextureMipmaps
+    v HalfAttributes
+    v RenderToOneDimensionalTexture
+    - ThreeDimensionalTextureMipmaps
+  Texture formats: RGBA8 BGRA8 R8 RG8 R16 RG16 RED_OR_ALPHA8 RGBA16F RGBA32F R16F R32F RGB10A2 D16 D24 D24S8 D32F BC1 BC2 BC3 BC4 BC5 BC6H BC7
+
+
+Plugin information:
+
++ Android                           14.0.2
++ AutoTest                          14.0.2
+  AutotoolsProjectManager           14.0.2
+  Axivion                           14.0.2
+  BareMetal                         14.0.2
++ Bazaar                            14.0.2
+  Beautifier                        14.0.2
++ BinEditor                         14.0.2
+  Boot2Qt                           14.0.2
++ CMakeProjectManager               14.0.2
+  CVS                               14.0.2
++ ClangCodeModel                    14.0.2
++ ClangFormat                       14.0.2
++ ClangTools                        14.0.2
++ ClassView                         14.0.2
+  ClearCase                         14.0.2
+  Coco                              14.0.2
++ CodePaster                        14.0.2
+  CompilationDatabaseProjectManager 14.0.2
+  CompilerExplorer                  14.0.2
+  Conan                             14.0.2
+  Copilot                           14.0.2
++ Core                              14.0.2
++ CppEditor                         14.0.2
++ Cppcheck                          14.0.2
++ CtfVisualizer                     14.0.2
++ Debugger                          14.0.2
++ Designer                          14.0.2
++ DiffEditor                        14.0.2
+  Docker                            14.0.2
+  EffectComposer                    14.0.2
+  EmacsKeys                         14.0.2
++ ExtensionManager                  14.0.2
++ FakeVim                           14.0.2
+  Fossil                            14.0.2
++ GLSLEditor                        14.0.2
++ GenericProjectManager             14.0.2
++ Git                               14.0.2
+  GitLab                            14.0.2
+  Haskell                           14.0.2
+  HelloWorld                        14.0.2
++ Help                              14.0.2
++ ImageViewer                       14.0.2
++ IncrediBuild                      14.0.2
+  Insight                           14.0.2
+  Ios                               14.0.2
++ LanguageClient                    14.0.2
+  Lua                               14.0.2
+  LuaLanguageClient                 14.0.2
++ Macros                            14.0.2
++ Marketplace                       14.0.2
+  McuSupport                        14.0.2
++ Mercurial                         14.0.2
+  MesonProjectManager               14.0.2
++ ModelEditor                       14.0.2
+  Nim                               14.0.2
++ PerfProfiler                      14.0.2
+  Perforce                          14.0.2
++ ProjectExplorer                   14.0.2
++ Python                            14.0.2
++ QbsProjectManager                 14.0.2
++ QmakeProjectManager               14.0.2
+  QmlDesigner                       14.0.2
++ QmlDesignerBase                   14.0.2
+  QmlDesignerLite                   14.0.2
++ QmlJSEditor                       14.0.2
++ QmlJSTools                        14.0.2
++ QmlPreview                        14.0.2
++ QmlProfiler                       14.0.2
++ QmlProjectManager                 14.0.2
++ Qnx                               14.0.2
+  QtApplicationManagerIntegration   14.0.2
++ QtSupport                         14.0.2
++ RemoteLinux                       14.0.2
++ ResourceEditor                    14.0.2
+  SafeRenderer                      14.0.2
+  ScreenRecorder                    14.0.2
++ ScxmlEditor                       14.0.2
+  SerialTerminal                    14.0.2
+  SilverSearcher                    14.0.2
+  Squish                            14.0.2
+  StudioWelcome                     14.0.2
++ Subversion                        14.0.2
++ Terminal                          14.0.2
++ TextEditor                        14.0.2
+  Todo                              14.0.2
++ UpdateInfo                        14.0.2
++ UsageStatistic                    14.0.2
++ Valgrind                          14.0.2
+  Vcpkg                             14.0.2
++ VcsBase                           14.0.2
++ WebAssembly                       14.0.2
++ Welcome                           14.0.2
+
+Used settingspath: ~/AppData/Roaming/QtProject
+
+UI configuration:
+
+Color: #666666
+Theme: flat-dark "Flat Dark"
+Toolbar style: Utils::StyleHelper::ToolbarStyleCompact
+Language: en_US
+Device pixel ratio: 1, Qt::HighDpiScaleFactorRoundingPolicy::Round
+Font DPI: 120
+Utils::StyleHelper::UiElement:
+  H1: Titillium Web,27,-1,5,600,0,0,0,0,0,0,0,0,2,0,1
+  H2: Titillium Web,21,-1,5,600,0,0,0,0,0,0,0,0,0,0,1
+  H3: Segoe UI,12,-1,5,700,0,0,0,0,0,1,0,0,0,0,1
+  H4: Segoe UI,12,-1,5,700,0,0,0,0,0,0,0,0,0,0,1
+  H5: Segoe UI,10.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  H6: Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  H6Capital: Segoe UI,9,-1,5,400,0,0,0,0,0,1,0,0,0,0,1
+  Body1: Segoe UI,10.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  Body2: Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  ButtonMedium: Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  ButtonSmall: Segoe UI,7.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  LabelMedium: Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  LabelSmall: Segoe UI,7.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  CaptionStrong: Segoe UI,7.5,-1,5,600,0,0,0,0,0,0,0,0,0,0,1
+  Caption: Segoe UI,7.5,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  IconStandard: Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+  IconActive: Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+Product: Qt Creator 14.0.2
+Based on: Qt 6.7.3 (MSVC 2019, x86_64)
+Built on: Sep 27 2024 00:15:55
+From revision: 3004ebc0af
+
+
+{noformat}
+
+----------------------------------------------------------------------------------------------------
+
+

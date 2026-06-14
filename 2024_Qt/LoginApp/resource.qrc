@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/EIL_Cr.jpg</file>
+    </qresource>
+</RCC>
