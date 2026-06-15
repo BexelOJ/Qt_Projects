@@ -8,10 +8,8 @@
 	[
 		"/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/CMakeLists.txt",
 		"/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake",
-		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/qt.toolchain.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in",
 		"/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
-		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/qt.toolchain.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake",
@@ -264,7 +262,8 @@
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
-		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
+		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
+		"/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter",
 	"DEP_FILE" : "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/deps",

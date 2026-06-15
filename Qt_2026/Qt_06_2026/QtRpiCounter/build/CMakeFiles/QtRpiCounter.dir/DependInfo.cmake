@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "QtRpiCounter_autogen/timestamp" "custom" "QtRpiCounter_autogen/deps"
+  "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o" "gcc" "CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/mocs_compilation.cpp" "CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o.d"
   "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/main.cpp" "CMakeFiles/QtRpiCounter.dir/main.cpp.o" "gcc" "CMakeFiles/QtRpiCounter.dir/main.cpp.o.d"
   "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/mainwindow.cpp" "CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o.d"

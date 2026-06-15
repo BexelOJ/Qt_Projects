@@ -1,7 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>icons/Qt_Counter_Logo_01.png</file>
+        <file>images/Qt_Counter_Logo_01.png</file>
     </qresource>
 </RCC>
-
-

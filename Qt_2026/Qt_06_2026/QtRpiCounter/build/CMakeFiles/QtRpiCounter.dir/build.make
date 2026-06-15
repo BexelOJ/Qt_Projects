@@ -76,10 +76,17 @@ QtRpiCounter_autogen/timestamp: CMakeFiles/QtRpiCounter.dir/compiler_depend.ts
 	/usr/bin/cmake -E cmake_autogen /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/QtRpiCounter_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/timestamp
 
+QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/resources.qrc
+QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/QtRpiCounter_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/images/Qt_Counter_Logo_01.png
+QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp: /usr/lib/qt6/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/QtRpiCounter_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 
+
 CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o: CMakeFiles/QtRpiCounter.dir/flags.make
 CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o: QtRpiCounter_autogen/mocs_compilation.cpp
 CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o: CMakeFiles/QtRpiCounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o -MF CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/mocs_compilation.cpp
 
 CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.i: cmake_force
@@ -93,7 +100,7 @@ CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.s: cmake_f
 CMakeFiles/QtRpiCounter.dir/main.cpp.o: CMakeFiles/QtRpiCounter.dir/flags.make
 CMakeFiles/QtRpiCounter.dir/main.cpp.o: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/main.cpp
 CMakeFiles/QtRpiCounter.dir/main.cpp.o: CMakeFiles/QtRpiCounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QtRpiCounter.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QtRpiCounter.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtRpiCounter.dir/main.cpp.o -MF CMakeFiles/QtRpiCounter.dir/main.cpp.o.d -o CMakeFiles/QtRpiCounter.dir/main.cpp.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/main.cpp
 
 CMakeFiles/QtRpiCounter.dir/main.cpp.i: cmake_force
@@ -107,7 +114,7 @@ CMakeFiles/QtRpiCounter.dir/main.cpp.s: cmake_force
 CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o: CMakeFiles/QtRpiCounter.dir/flags.make
 CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/mainwindow.cpp
 CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o: CMakeFiles/QtRpiCounter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o -MF CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o.d -o CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/mainwindow.cpp
 
 CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.i: cmake_force
@@ -118,11 +125,26 @@ CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/mainwindow.cpp -o CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.s
 
+CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/QtRpiCounter.dir/flags.make
+CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o: QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp
+CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/QtRpiCounter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp
+
+CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp > CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp -o CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 # Object files for target QtRpiCounter
 QtRpiCounter_OBJECTS = \
 "CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/QtRpiCounter.dir/main.cpp.o" \
-"CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o"
+"CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o" \
+"CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target QtRpiCounter
 QtRpiCounter_EXTERNAL_OBJECTS =
@@ -130,6 +152,7 @@ QtRpiCounter_EXTERNAL_OBJECTS =
 QtRpiCounter: CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o
 QtRpiCounter: CMakeFiles/QtRpiCounter.dir/main.cpp.o
 QtRpiCounter: CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o
+QtRpiCounter: CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp.o
 QtRpiCounter: CMakeFiles/QtRpiCounter.dir/build.make
 QtRpiCounter: /usr/lib/aarch64-linux-gnu/libQt6Widgets.so.6.4.2
 QtRpiCounter: /usr/lib/aarch64-linux-gnu/libQt6Gui.so.6.4.2
@@ -137,7 +160,7 @@ QtRpiCounter: /usr/lib/aarch64-linux-gnu/libQt6Core.so.6.4.2
 QtRpiCounter: /usr/lib/aarch64-linux-gnu/libGLX.so
 QtRpiCounter: /usr/lib/aarch64-linux-gnu/libOpenGL.so
 QtRpiCounter: CMakeFiles/QtRpiCounter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable QtRpiCounter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable QtRpiCounter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QtRpiCounter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -148,6 +171,7 @@ CMakeFiles/QtRpiCounter.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/QtRpiCounter.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/QtRpiCounter.dir/clean
 
+CMakeFiles/QtRpiCounter.dir/depend: QtRpiCounter_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/QtRpiCounter.dir/depend: QtRpiCounter_autogen/timestamp
 	cd /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/QtRpiCounter.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QtRpiCounter.dir/depend

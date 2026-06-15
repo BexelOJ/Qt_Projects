@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-1057-raspi")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "aarch64")
 
-include("/usr/lib/aarch64-linux-gnu/cmake/Qt6/qt.toolchain.cmake")
+
 
 set(CMAKE_SYSTEM "Linux-6.8.0-1057-raspi")
 set(CMAKE_SYSTEM_NAME "Linux")

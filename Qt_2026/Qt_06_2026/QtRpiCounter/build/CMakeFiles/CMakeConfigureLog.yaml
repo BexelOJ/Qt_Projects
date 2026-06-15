@@ -39,29 +39,23 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf"
-      binary: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf"
+      source: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0"
+      binary: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/aarch64-linux-gnu/cmake/Qt6/platforms;/usr/lib/aarch64-linux-gnu/cmake/Qt6/platforms"
-      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
-      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
-      QT_TOOLCHAIN_INCLUDE_FILE: ""
-      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/usr/lib/aarch64-linux-gnu/cmake"
-      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf'
+        Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41e89/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_41e89.dir/build.make CMakeFiles/cmTC_41e89.dir/build
-        gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf'
-        Building CXX object CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2ab19/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2ab19.dir/build.make CMakeFiles/cmTC_2ab19.dir/build
+        gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0'
+        Building CXX object CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -71,8 +65,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41e89.dir/'
-         /usr/libexec/gcc/aarch64-linux-gnu/13/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41e89.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccMPbxOr.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2ab19.dir/'
+         /usr/libexec/gcc/aarch64-linux-gnu/13/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2ab19.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccCHEwjm.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (aarch64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -93,15 +87,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 3007a9bdd78900ddf3753164e1e631d0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41e89.dir/'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMPbxOr.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2ab19.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCHEwjm.s
         GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_41e89
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e89.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41e89 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2ab19
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ab19.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2ab19 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper
@@ -114,10 +108,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e89' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41e89.'
-         /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghUrLJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_41e89 /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e89' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41e89.'
-        gmake[1]: Leaving directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ab19' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2ab19.'
+         /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRZ7EsK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_2ab19 /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ab19' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2ab19.'
+        gmake[1]: Leaving directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0'
         
       exitCode: 0
   -
@@ -157,13 +151,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf']
+        ignore line: [Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41e89/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_41e89.dir/build.make CMakeFiles/cmTC_41e89.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-OwZcjf']
-        ignore line: [Building CXX object CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2ab19/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2ab19.dir/build.make CMakeFiles/cmTC_2ab19.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-mhPQE0']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -173,8 +167,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41e89.dir/']
-        ignore line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41e89.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccMPbxOr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2ab19.dir/']
+        ignore line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2ab19.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccCHEwjm.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (aarch64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -195,15 +189,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3007a9bdd78900ddf3753164e1e631d0]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41e89.dir/']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMPbxOr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2ab19.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCHEwjm.s]
         ignore line: [GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_41e89]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e89.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41e89 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2ab19]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ab19.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2ab19 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper]
@@ -216,13 +210,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e89' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_41e89.']
-        link line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghUrLJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_41e89 /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ab19' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2ab19.']
+        link line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRZ7EsK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_2ab19 /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/aarch64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccghUrLJ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRZ7EsK.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -242,7 +236,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_41e89] ==> ignore
+          arg [cmTC_2ab19] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o]
@@ -254,7 +248,7 @@ events:
           arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_41e89.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2ab19.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -296,33 +290,28 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-JzUea6"
-      binary: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-JzUea6"
+      source: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-FrG4l3"
+      binary: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-FrG4l3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/aarch64-linux-gnu/cmake/Qt6/platforms;/usr/lib/aarch64-linux-gnu/cmake/Qt6/platforms;/usr/lib/aarch64-linux-gnu/cmake/Qt6;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin"
-      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
-      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
-      QT_TOOLCHAIN_INCLUDE_FILE: ""
-      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/usr/lib/aarch64-linux-gnu/cmake"
-      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+      CMAKE_MODULE_PATH: "/usr/lib/aarch64-linux-gnu/cmake/Qt6;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-JzUea6'
+        Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-FrG4l3'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01133/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_01133.dir/build.make CMakeFiles/cmTC_01133.dir/build
-        gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-JzUea6'
-        Building CXX object CMakeFiles/cmTC_01133.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_01133.dir/src.cxx.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-JzUea6/src.cxx
-        Linking CXX executable cmTC_01133
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01133.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_01133.dir/src.cxx.o -o cmTC_01133 
-        gmake[1]: Leaving directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-JzUea6'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ff0b5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ff0b5.dir/build.make CMakeFiles/cmTC_ff0b5.dir/build
+        gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-FrG4l3'
+        Building CXX object CMakeFiles/cmTC_ff0b5.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_ff0b5.dir/src.cxx.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-FrG4l3/src.cxx
+        Linking CXX executable cmTC_ff0b5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff0b5.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ff0b5.dir/src.cxx.o -o cmTC_ff0b5 
+        gmake[1]: Leaving directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-FrG4l3'
         
       exitCode: 0
   -
@@ -344,33 +333,28 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-akuxdb"
-      binary: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-akuxdb"
+      source: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-ck7yMe"
+      binary: "/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-ck7yMe"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/usr/lib/aarch64-linux-gnu/cmake/Qt6/platforms;/usr/lib/aarch64-linux-gnu/cmake/Qt6/platforms;/usr/lib/aarch64-linux-gnu/cmake/Qt6;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin;/usr/lib/aarch64-linux-gnu/cmake/Qt6;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin"
-      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
-      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
-      QT_TOOLCHAIN_INCLUDE_FILE: ""
-      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/usr/lib/aarch64-linux-gnu/cmake"
-      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+      CMAKE_MODULE_PATH: "/usr/lib/aarch64-linux-gnu/cmake/Qt6;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin;/usr/lib/aarch64-linux-gnu/cmake/Qt6;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin"
     buildResult:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-akuxdb'
+        Change Dir: '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-ck7yMe'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6bd63/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_6bd63.dir/build.make CMakeFiles/cmTC_6bd63.dir/build
-        gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-akuxdb'
-        Building CXX object CMakeFiles/cmTC_6bd63.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_6bd63.dir/src.cxx.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-akuxdb/src.cxx
-        Linking CXX executable cmTC_6bd63
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bd63.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_6bd63.dir/src.cxx.o -o cmTC_6bd63 
-        gmake[1]: Leaving directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-akuxdb'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55091/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_55091.dir/build.make CMakeFiles/cmTC_55091.dir/build
+        gmake[1]: Entering directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-ck7yMe'
+        Building CXX object CMakeFiles/cmTC_55091.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_55091.dir/src.cxx.o -c /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-ck7yMe/src.cxx
+        Linking CXX executable cmTC_55091
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55091.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_55091.dir/src.cxx.o -o cmTC_55091 
+        gmake[1]: Leaving directory '/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/CMakeFiles/CMakeScratch/TryCompile-ck7yMe'
         
       exitCode: 0
 ...
