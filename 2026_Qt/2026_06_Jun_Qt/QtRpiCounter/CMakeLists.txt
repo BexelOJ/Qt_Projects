@@ -21,7 +21,8 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(QtRpiCounter
+
+qt_add_executable(QtRpiCounter
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )

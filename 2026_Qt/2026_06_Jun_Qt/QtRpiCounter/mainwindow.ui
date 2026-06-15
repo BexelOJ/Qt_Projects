@@ -11,10 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Counter</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_1">
+   <widget class="QPushButton" name="pushButton_inc">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -27,7 +27,7 @@
      <string>Increment</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButton_dec">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -60,7 +60,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Green</string>
+     <string>     Green</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -73,7 +73,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Blue</string>
+     <string>       Blue</string>
     </property>
    </widget>
   </widget>
