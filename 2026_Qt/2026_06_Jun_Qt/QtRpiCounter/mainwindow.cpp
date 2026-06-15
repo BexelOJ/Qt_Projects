@@ -6,6 +6,13 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
 {
     ui->setupUi(this);
 
+    ui->lcdNumber_display->setStyleSheet(
+        "QLCDNumber {"
+        "    color:green;"
+        "    background-color: black;"
+        "}"
+        );
+
     ui->lcdNumber_display->display(counter);
 
     connect(ui->pushButton_inc, &QPushButton::clicked,
