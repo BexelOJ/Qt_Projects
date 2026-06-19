@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -14,16 +15,22 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    explicit MainWindow(QWidget *parent = nullptr); // constructor
+    ~MainWindow();                 // destructor, only declaration
 
 private slots:
-    void onIncrementClicked();
-    void onDecrementClicked();
+    void readGPIO();
+    // void onIncrementClicked(); // slot function declared (for Increment function)
+    // void onDecrementClicked(); // slot function declared (for Decrement function)
 
 private:
     Ui::MainWindow *ui;
     int counter = 0;
+
+    bool last23 = false;
+    bool last25 = false;
+
+    QTimer *timer;
 };
 
 #endif // MAINWINDOW_H

@@ -343,4 +343,7 @@ CMakeFiles/QtRpiCounter.dir/QtRpiCounter_autogen/mocs_compilation.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qbitmap.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h

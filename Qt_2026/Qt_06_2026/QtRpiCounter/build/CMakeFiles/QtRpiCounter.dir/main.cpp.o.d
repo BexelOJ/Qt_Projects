@@ -338,6 +338,9 @@ CMakeFiles/QtRpiCounter.dir/main.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qbitmap.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/QIcon \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qicon.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QApplication \

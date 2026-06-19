@@ -66,9 +66,9 @@ include CMakeFiles/QtRpiCounter_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/QtRpiCounter_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/QtRpiCounter_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/QtRpiCounter_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/QtRpiCounter_autogen_timestamp_deps: /usr/lib/aarch64-linux-gnu/libQt6Widgets.so.6.4.2
+CMakeFiles/QtRpiCounter_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/QtRpiCounter_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/QtRpiCounter_autogen_timestamp_deps: /usr/lib/aarch64-linux-gnu/libQt6Core.so.6.4.2
 
 QtRpiCounter_autogen_timestamp_deps: CMakeFiles/QtRpiCounter_autogen_timestamp_deps

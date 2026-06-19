@@ -338,6 +338,9 @@ CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qbitmap.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h \
  /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/build/QtRpiCounter_autogen/include/ui_mainwindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QVariant \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariant.h \
@@ -376,4 +379,6 @@ CMakeFiles/QtRpiCounter.dir/mainwindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qstatusbar.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QPushButton
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QPushButton \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QProcess \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qprocess.h

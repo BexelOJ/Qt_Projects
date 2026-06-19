@@ -99,6 +99,7 @@ QtRpiCounter_autogen/timestamp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpi
   /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -107,6 +108,7 @@ QtRpiCounter_autogen/timestamp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpi
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasicatomic.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbindingstorage.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearray.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
@@ -176,6 +178,7 @@ QtRpiCounter_autogen/timestamp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpi
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtcore-config.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtcoreexports.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtextstream.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtypeinfo.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qutf8stringview.h \
@@ -676,6 +679,10 @@ QtRpiCounter_autogen/timestamp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpi
 
 /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
 
+/usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:
+
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qarraydata.h:
@@ -798,10 +805,6 @@ QtRpiCounter_autogen/timestamp: /home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpi
 
 /usr/include/c++/13/bits/ptr_traits.h:
 
-/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qtextstream.h:
 
 /usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake:
@@ -829,6 +832,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qstringtokenizer.h:
 
 /usr/include/c++/13/bits/max_size_type.h:
+
+/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
+
+/usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qstringconverter_base.h:
 
@@ -918,6 +925,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake:
 
+/usr/include/aarch64-linux-gnu/qt6/QtCore/qglobal.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayview.h:
@@ -981,8 +990,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qchar.h:
 
 /usr/include/c++/13/bits/parse_numbers.h:
-
-/usr/include/aarch64-linux-gnu/qt6/QtCore/qglobal.h:
 
 /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
@@ -1102,6 +1109,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/aarch64-linux-gnu/qt6/QtGui/qbrush.h:
 
+/usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h:
+
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qtcoreexports.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qshareddata_impl.h:
@@ -1160,14 +1169,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qanystringview.h:
 
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic_cxx11.h:
-
-/usr/include/aarch64-linux-gnu/qt6/QtGui/qicon.h:
-
-/usr/include/c++/13/bits/ranges_algo.h:
-
 /usr/include/aarch64-linux-gnu/bits/environments.h:
 
 /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:
@@ -1200,8 +1201,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qforeach.h:
 
-/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/CMakeLists.txt:
-
 /usr/include/aarch64-linux-gnu/qt6/QtGui/qwindowdefs.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qdebug.h:
@@ -1211,6 +1210,10 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/error_t.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
 
@@ -1270,6 +1273,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
 
+/usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h:
+
 /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/c++/13/bits/ranges_uninitialized.h:
@@ -1290,6 +1295,10 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/cpu_defines.h:
 
+/home/exin/Workspace/Qt/Qt_2026/Qt_06_2026/QtRpiCounter/CMakeLists.txt:
+
+/usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer:
+
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qpair.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
@@ -1302,13 +1311,15 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qalgorithms.h:
 
-/usr/include/c++/13/bits/functional_hash.h:
+/usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic_cxx11.h:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/include/aarch64-linux-gnu/qt6/QtGui/qicon.h:
+
+/usr/include/c++/13/bits/ranges_algo.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qcompare.h:
-
-/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
-
-/usr/lib/aarch64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake:
 
@@ -1337,6 +1348,12 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qgenericatomic.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
+
+/usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -1646,10 +1663,6 @@ QtRpiCounter_autogen/moc_predefs.h:
 
 /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake:
 
-/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
-
-/usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
 /usr/include/stdc-predef.h:
 
 /usr/lib/aarch64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
@@ -1673,8 +1686,6 @@ QtRpiCounter_autogen/moc_predefs.h:
 /usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
 /usr/include/unistd.h:
 
@@ -1803,5 +1814,3 @@ QtRpiCounter_autogen/moc_predefs.h:
 /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake:
-
-/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:

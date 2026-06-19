@@ -88,6 +88,7 @@
   /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/QTimer \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -96,6 +97,7 @@
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasicatomic.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbindingstorage.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearray.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
@@ -165,6 +167,7 @@
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtcore-config.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtcoreexports.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtextstream.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimer.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qtypeinfo.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qutf8stringview.h \

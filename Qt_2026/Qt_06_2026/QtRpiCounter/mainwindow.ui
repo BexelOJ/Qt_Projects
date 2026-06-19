@@ -43,11 +43,14 @@
    <widget class="QLCDNumber" name="lcdNumber_display">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>120</y>
-      <width>64</width>
-      <height>23</height>
+      <x>110</x>
+      <y>80</y>
+      <width>331</width>
+      <height>100</height>
      </rect>
+    </property>
+    <property name="smallDecimalPoint">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_1">
@@ -55,12 +58,12 @@
      <rect>
       <x>120</x>
       <y>250</y>
-      <width>63</width>
+      <width>91</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>     Green</string>
+     <string>   Green LED</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -68,12 +71,12 @@
      <rect>
       <x>360</x>
       <y>250</y>
-      <width>63</width>
+      <width>81</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>       Blue</string>
+     <string>    Blue LED</string>
     </property>
    </widget>
   </widget>
