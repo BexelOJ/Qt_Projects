@@ -23,13 +23,13 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
 
     timer->start(100); // 100 ms polling
 
-    /*
+
     connect(ui->pushButton_inc, &QPushButton::clicked,
             this, &MainWindow::onIncrementClicked);
 
     connect(ui->pushButton_dec, &QPushButton::clicked,
             this, &MainWindow::onDecrementClicked);
-    */
+
 
 }
 
@@ -38,7 +38,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-/*
+
 void MainWindow::onIncrementClicked()
 {
     counter++;
@@ -50,7 +50,7 @@ void MainWindow::onDecrementClicked()
     counter--;
     ui->lcdNumber_display->display(counter);
 }
-*/
+
 
 void MainWindow::readGPIO()
 {

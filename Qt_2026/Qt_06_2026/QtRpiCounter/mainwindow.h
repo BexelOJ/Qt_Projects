@@ -20,8 +20,8 @@ public:
 
 private slots:
     void readGPIO();
-    // void onIncrementClicked(); // slot function declared (for Increment function)
-    // void onDecrementClicked(); // slot function declared (for Decrement function)
+    void onIncrementClicked(); // slot function declared (for Increment function)
+    void onDecrementClicked(); // slot function declared (for Decrement function)
 
 private:
     Ui::MainWindow *ui;
