@@ -14,86 +14,109 @@ ApplicationWindow {
     minimumWidth: 360
     minimumHeight: 600
 
-    title: "yantraSthiti"
+    title: "YantraSthiti"
 
     color: "#101318"
 
-    //-------------------------------------------
-    // Main layout
-    //-------------------------------------------
-
-    ColumnLayout {
+    ScrollView {
 
         anchors.fill: parent
-        anchors.margins: 24
 
-        spacing: 20
+        clip: true
 
+        ScrollBar.vertical.policy: ScrollBar.AsNeeded
+        contentWidth: availableWidth
+
+       // Item {
+
+         //   width: root.width
+          //  height: mainLayout.height + 48
         //-------------------------------------------
-        // Header
-        //-------------------------------------------
-
-        RowLayout {
-
-            Layout.fillWidth: true
-
-            Label {
-                text: "yantraSthiti"
-
-                color: "white"
-
-                font.pixelSize: 30
-                font.bold: true
-            }
-
-            Item {
-                Layout.fillWidth: true
-            }
-
-            Label {
-                text: "● Connected"
-
-                color: "#55d68a"
-
-                font.pixelSize: 16
-            }
-        }
-
-        //-------------------------------------------
-        // Server selector
+        // Main layout
         //-------------------------------------------
 
         ColumnLayout {
+            id: mainLayout
+/*
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.top: parent.top
 
-            Layout.fillWidth: true
+            anchors.leftMargin: 24
+            anchors.rightMargin: 24
+            anchors.topMargin: 24
+*/
+            width: parent.width - 48
+            x: 24
+            y: 24
 
-            spacing: 8
+            spacing: 20
 
-            Label {
-                text: "Server"
+            //-------------------------------------------
+            // Header
+            //-------------------------------------------
 
-                color: "#8f98a8"
-
-                font.pixelSize: 14
-            }
-
-            ComboBox {
-
-                id: serverComboBox
+            RowLayout {
 
                 Layout.fillWidth: true
 
-                model: [
-                    "Ei Labs Server_01",
-                    "Ei Labs Server_02",
-                    "Ei Labs Server_03"
-                ]
+                Label {
+                    text: "YantraSthiti"
 
-                currentIndex: 0
+                    color: "white"
 
-                font.pixelSize: 16
+                    font.pixelSize: 30
+                    font.bold: true
+             }
+
+                Item {
+                    Layout.fillWidth: true
+                }
+
+              Label {
+                    text: "● Connected"
+
+                    color: "#55d68a"
+
+                    font.pixelSize: 16
+                }
             }
-        }
+
+            //-------------------------------------------
+            // Server selector
+            //-------------------------------------------
+
+            ColumnLayout {
+
+                Layout.fillWidth: true
+
+                spacing: 8
+
+                Label {
+                    text: "Server"
+
+                    color: "#8f98a8"
+
+                    font.pixelSize: 14
+                }
+
+                ComboBox {
+
+                    id: serverComboBox
+
+                    Layout.fillWidth: true
+
+                    model: [
+                        "Ei Labs Server_01",
+                        "Ei Labs Server_02",
+                        "Ei Labs Server_03"
+                        ]
+
+                            currentIndex: 0
+
+                            font.pixelSize: 16
+                        }
+            }
 
         //-------------------------------------------
         // Server information
@@ -107,7 +130,7 @@ ApplicationWindow {
 
             Label {
 
-                text: serverComboBox.currentText
+                text: database.serverName
 
                 color: "white"
 
@@ -117,7 +140,7 @@ ApplicationWindow {
 
             Label {
 
-                text: "192.168.0.124"
+                text: database.ip
 
                 color: "#8f98a8"
 
@@ -142,7 +165,7 @@ ApplicationWindow {
 
             MetricCard {
                 title: "CPU"
-                metricValue: 100
+                metricValue: database.cpu
 
                 Layout.fillWidth: true
                 Layout.preferredHeight: 140
@@ -150,7 +173,7 @@ ApplicationWindow {
 
             MetricCard {
                 title: "RAM"
-                metricValue: 47
+                metricValue: database.ram
 
                 Layout.fillWidth: true
                 Layout.preferredHeight: 140
@@ -158,7 +181,7 @@ ApplicationWindow {
 
             MetricCard {
                 title: "DISK"
-                metricValue: 89
+                metricValue: database.disk
 
                 Layout.fillWidth: true
                 Layout.preferredHeight: 140
@@ -189,4 +212,7 @@ ApplicationWindow {
                title: "RAM Usage"
            }
     }
+        }
 }
+
+
