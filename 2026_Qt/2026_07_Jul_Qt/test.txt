@@ -1,1 +1,100 @@
-india
+------------------------------------------------------------
+
+------------------------------
+
+------------------------------------------------------------
+exin-desktop:/etc/systemd/system$ cat yantraSthiti.service
+[Unit]
+Description=My Python Service
+After=network.target
+
+[Service]
+Type=simple
+User=exin
+
+WorkingDirectory=/home/exin/Workspace/Python/Python_2026/py_06_2026/oled_project
+
+ExecStart=/home/exin/Workspace/Python/Python_2026/py_06_2026/oled_project/venv/bin/python /home/exin/Workspace/Python/Python_2026/py_06_2026/oled_project/py_20260621_oled_dashBoard.py
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+exin@exin-desktop:/etc/systemd/system$
+
+------------------------------------------------------------
+CREATE DATABASE "yantraSthiti_DB";
+
+CREATE USER monitor_app WITH PASSWORD 'SUPPORt@1615';
+
+
+------------------------------------------------------------
+Login using the application user:
+
+psql -h 127.0.0.1 -p 5432 -U monitor_yantraSthiti_app -d "yantraSthiti_DB"
+
+------------------------------------------------------------
+Login as PostgreSQL administrator:
+
+sudo -u postgres psql -p 5432
+
+------------------------------------------------------------
+ALTER USER monitor_yantraSthiti_app
+WITH PASSWORD 'SUPPORt@1615';
+
+ALTER USER monitor_yantrasthiti_app
+WITH PASSWORD 'SUPPORt@1615';
+
+------------------------------------------------------------
+Exit:
+\q
+
+Display Table :
+\dt
+
+
+
+------------------------------------------------------------
+pg_hba.conf stands for:
+
+PostgreSQL Host-Based Authentication Configuration File
+
+------------------------------------------------------------
+psql -h 127.0.0.1 -p 5432 -U monitor_yantrasthiti_app -d "yantraSthiti_DB"
+
+SELECT *
+FROM system_metrics
+ORDER BY id DESC
+LIMIT 5;
+
+------------------------------------------------------------
+/home/exin/Workspace/Python/Python_2026/py_06_2026/oled_project/venv
+
+------------------------------------------------------------
+program.py.backup
+program.py.bak
+program_backup.py
+program_20260902.py
+program.old
+
+------------------------------------------------------------
+sudo systemctl stop yantraSthiti.service
+sudo systemctl restart yantraSthiti.service
+
+sudo systemctl status mosquitto
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+
+
+
+
