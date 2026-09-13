@@ -22,6 +22,7 @@ qt_add_qml_module(appyantraSthiti
     QML_FILES
         Main.qml
         QML_FILES MetricCard.qml
+        QML_FILES MetricGraph.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

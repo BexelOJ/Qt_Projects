@@ -3,18 +3,30 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
 ApplicationWindow {
-    width: 1200
-    height: 750
+
+    id: root
 
     visible: true
 
-    title: "YantraSthiti"
+    width: 1200
+    height: 750
+
+    minimumWidth: 360
+    minimumHeight: 600
+
+    title: "yantraSthiti"
 
     color: "#101318"
 
+    //-------------------------------------------
+    // Main layout
+    //-------------------------------------------
+
     ColumnLayout {
+
         anchors.fill: parent
         anchors.margins: 24
+
         spacing: 20
 
         //-------------------------------------------
@@ -22,12 +34,14 @@ ApplicationWindow {
         //-------------------------------------------
 
         RowLayout {
+
             Layout.fillWidth: true
 
             Label {
-                text: "YantraSthiti"
+                text: "yantraSthiti"
 
-                color: "green"
+                color: "white"
+
                 font.pixelSize: 30
                 font.bold: true
             }
@@ -40,6 +54,7 @@ ApplicationWindow {
                 text: "● Connected"
 
                 color: "#55d68a"
+
                 font.pixelSize: 16
             }
         }
@@ -48,20 +63,25 @@ ApplicationWindow {
         // Server selector
         //-------------------------------------------
 
-        RowLayout {
+        ColumnLayout {
+
             Layout.fillWidth: true
+
+            spacing: 8
 
             Label {
                 text: "Server"
 
-                color: "#b8bec9"
-                font.pixelSize: 16
+                color: "#8f98a8"
+
+                font.pixelSize: 14
             }
 
             ComboBox {
+
                 id: serverComboBox
 
-                Layout.preferredWidth: 350
+                Layout.fillWidth: true
 
                 model: [
                     "Ei Labs Server_01",
@@ -70,10 +90,8 @@ ApplicationWindow {
                 ]
 
                 currentIndex: 0
-            }
 
-            Item {
-                Layout.fillWidth: true
+                font.pixelSize: 16
             }
         }
 
@@ -82,21 +100,27 @@ ApplicationWindow {
         //-------------------------------------------
 
         ColumnLayout {
+
             Layout.fillWidth: true
+
             spacing: 4
 
             Label {
+
                 text: serverComboBox.currentText
 
                 color: "white"
+
                 font.pixelSize: 24
                 font.bold: true
             }
 
             Label {
+
                 text: "192.168.0.124"
 
                 color: "#8f98a8"
+
                 font.pixelSize: 15
             }
         }
@@ -105,52 +129,64 @@ ApplicationWindow {
         // Metrics
         //-------------------------------------------
 
-        RowLayout {
+        GridLayout {
+
+            id: metricsLayout
+
             Layout.fillWidth: true
-            Layout.preferredHeight: 150
+
+            columns: root.width >= 700 ? 3 : 1
+
+            rowSpacing: 12
+            columnSpacing: 12
 
             MetricCard {
                 title: "CPU"
-                value: "23 %"
+                metricValue: 100
 
                 Layout.fillWidth: true
+                Layout.preferredHeight: 140
             }
 
             MetricCard {
                 title: "RAM"
-                value: "47 %"
+                metricValue: 47
 
                 Layout.fillWidth: true
+                Layout.preferredHeight: 140
             }
 
             MetricCard {
                 title: "DISK"
-                value: "61 %"
+                metricValue: 89
 
                 Layout.fillWidth: true
+                Layout.preferredHeight: 140
             }
         }
 
         //-------------------------------------------
-        // Graph area
+        // CPU graph
         //-------------------------------------------
 
-        Rectangle {
+        MetricGraph {
+
             Layout.fillWidth: true
-            Layout.fillHeight: true
+            Layout.preferredHeight: 220
 
-            color: "#181c23"
-            radius: 12
-
-            Label {
-                anchors.centerIn: parent
-
-                text: "Graphs will come here"
-
-                color: "#697180"
-                font.pixelSize: 20
-            }
+            title: "CPU Usage"
         }
+
+        //-------------------------------------------
+        // RAM graph
+        //-------------------------------------------
+
+        MetricGraph {
+
+               Layout.fillWidth: true
+               Layout.preferredHeight: 220
+
+               title: "RAM Usage"
+           }
     }
 }
-
