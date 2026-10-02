@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Yantra Sthiti
+Comment=Track your login and working hours
+Exec=yantra-sthiti
+Icon=yantra-sthiti
+Terminal=false
+Categories=Utility;

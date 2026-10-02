@@ -1,11 +1,11 @@
-#include "DatabaseManager.h"
+#include "databasemanager.h"
 
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QDebug>
 
-DatabaseManager::DatabaseManager(QObject *parent)
+databasemanager::databasemanager(QObject *parent)
     : QObject(parent)
 {
 }
@@ -14,27 +14,27 @@ DatabaseManager::DatabaseManager(QObject *parent)
 // Getters
 //-------------------------------------------
 
-QString DatabaseManager::serverName() const
+QString databasemanager::serverName() const
 {
     return m_serverName;
 }
 
-QString DatabaseManager::ip() const
+QString databasemanager::ip() const
 {
     return m_ip;
 }
 
-double DatabaseManager::cpu() const
+double databasemanager::cpu() const
 {
     return m_cpu;
 }
 
-double DatabaseManager::ram() const
+double databasemanager::ram() const
 {
     return m_ram;
 }
 
-double DatabaseManager::disk() const
+double databasemanager::disk() const
 {
     return m_disk;
 }
@@ -43,7 +43,7 @@ double DatabaseManager::disk() const
 // Connect to PostgreSQL
 //-------------------------------------------
 
-bool DatabaseManager::connectToDatabase()
+bool databasemanager::connectToDatabase()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL");
 
@@ -54,7 +54,7 @@ bool DatabaseManager::connectToDatabase()
 
     // TEMPORARY:
     // We will move this out of the source code later.
-    db.setPassword("YOUR_PASSWORD");
+    db.setPassword("SUPPORt@1615");
 
     if (!db.open()) {
 
@@ -73,7 +73,7 @@ bool DatabaseManager::connectToDatabase()
 // Read latest metric
 //-------------------------------------------
 
-bool DatabaseManager::readLatestMetric()
+bool databasemanager::readLatestMetric()
 {
     QSqlDatabase db = QSqlDatabase::database();
 

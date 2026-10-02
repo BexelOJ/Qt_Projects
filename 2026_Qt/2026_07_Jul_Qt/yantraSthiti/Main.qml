@@ -60,6 +60,16 @@ ApplicationWindow {
 
                 Layout.fillWidth: true
 
+                Image {
+
+                    source: "qrc:/qt/qml/yantraSthiti/images/YantraSthiti_Logo.jpg"
+
+                    Layout.preferredWidth: 48
+                    Layout.preferredHeight: 48
+
+                    fillMode: Image.PreserveAspectFit
+                }
+
                 Label {
                     text: "YantraSthiti"
 
@@ -107,9 +117,10 @@ ApplicationWindow {
                     Layout.fillWidth: true
 
                     model: [
-                        "Ei Labs Server_01",
-                        "Ei Labs Server_02",
-                        "Ei Labs Server_03"
+                        "Ei_Labs_Server_Ser",
+                        "Ei_Labs_Server_LDD",
+                        "Ei_Labs_Server_Yoc",
+                        "Ei_Labs_Server_Ved"
                         ]
 
                             currentIndex: 0

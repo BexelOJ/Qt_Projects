@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "DatabaseManager.h"
+#include "databasemanager.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
-    DatabaseManager database;
+    databasemanager database;
 
     database.connectToDatabase();
     database.readLatestMetric();

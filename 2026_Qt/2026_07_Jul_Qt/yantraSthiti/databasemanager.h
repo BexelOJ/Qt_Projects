@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QString>
 
-class DatabaseManager : public QObject
+class databasemanager : public QObject
 {
     Q_OBJECT
 
@@ -16,7 +16,7 @@ class DatabaseManager : public QObject
 
 public:
 
-    explicit DatabaseManager(QObject *parent = nullptr);
+    explicit databasemanager(QObject *parent = nullptr);
 
     QString serverName() const;
     QString ip() const;

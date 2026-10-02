@@ -8,30 +8,63 @@ find_package(Qt6 REQUIRED COMPONENTS Quick Sql)
 
 qt_standard_project_setup(REQUIRES 6.10)
 
+# ---------------------------------------------------
 # Content of downloaded design from Figma to Qt or similar
+# ---------------------------------------------------
 if (EXISTS "${CMAKE_CURRENT_LIST_DIR}/importedcontent/CMakeLists.txt")
     add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/importedcontent)
 endif()
 
-qt_add_executable(appyantraSthiti
+# ---------------------------------------------------
+# Executable
+# ---------------------------------------------------
+qt_add_executable(YantraSthiti
     main.cpp
-    DatabaseManager.cpp
-    DatabaseManager.h
+    databasemanager.cpp
+    databasemanager.h
 )
 
-qt_add_qml_module(appyantraSthiti
+# ---------------------------------------------------
+# QML module
+# ---------------------------------------------------
+qt_add_qml_module(YantraSthiti
     URI yantraSthiti
     QML_FILES
         Main.qml
-        QML_FILES MetricCard.qml
-        QML_FILES MetricGraph.qml
-        SOURCES databasemanager.h databasemanager.cpp
+        MetricCard.qml
+        MetricGraph.qml
+
+    SOURCES
+        databasemanager.h
+        databasemanager.cpp
+
+    RESOURCES
+        images/YantraSthiti_Logo.png
 )
 
+# ---------------------------------------------------
+# Android
+# ---------------------------------------------------
+if(ANDROID)
+    set_target_properties(YantraSthiti PROPERTIES
+        QT_ANDROID_PACKAGE_SOURCE_DIR
+            "${CMAKE_CURRENT_SOURCE_DIR}/android"
+
+        QT_ANDROID_APP_NAME
+            "YantraSthiti"
+
+        QT_ANDROID_APP_ICON
+            "@mipmap/ic_launcher"
+    )
+endif()
+
+# ---------------------------------------------------
+# Application properties
+# ---------------------------------------------------
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
-set_target_properties(appyantraSthiti PROPERTIES
+set_target_properties(YantraSthiti PROPERTIES
 #    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appyantraSthiti
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
@@ -39,13 +72,19 @@ set_target_properties(appyantraSthiti PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
-target_link_libraries(appyantraSthiti
+# ---------------------------------------------------
+# Libraries
+# ---------------------------------------------------
+target_link_libraries(YantraSthiti
     PRIVATE
         Qt6::Quick
         Qt6::Sql
 )
 
-install(TARGETS appyantraSthiti
+# ---------------------------------------------------
+# Install
+# ---------------------------------------------------
+install(TARGETS YantraSthiti
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
